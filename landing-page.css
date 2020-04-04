@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+#header-title {
+  justify-content: left;
+  margin: 0 0 0 20px;
+}
+#header-img {
+  max-width: 100%;
+}
+nav {
+  background-color: gray;
+  display: flex;
+  justify-content: right;
+  padding: 12px;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  list-style-type: none;
+}
+.nav-link {
+  color: pink;
+  text-decoration: none;
+  margin: 0 10px;
+}
+h1 {
+  font-family: 'Sen', sans-serif;
+}
+h2 {
+  font-family: 'Sen', sans-serif;
+  text-align: center;
+}
+body {
+  color: #000;
+  margin: 50px 0 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  max-width: 700px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  .button {
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+    background-color: pink;
+    padding: 5px 10px 8px 10px;
+    font-size: 14px;
+    border-width: 1px;
+  }
+  button {
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+    background-color: pink;
+    padding: 5px 10px 8px 10px;
+    font-size: 14px;
+    border-width: 1px;
+  }
+.services {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: gray;
+  width: 30%;
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+  margin: 20px 1.5%
+}
+.img-card {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  left:0;
+  right: 0;
+}
+.bg-lavender {
+  background-color: lavender;
+  padding: 0px 0 20px 0;
+}
+footer {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+form input[type="email"]{
+  border-radius: 5px;
+  border: 0px;
+  color: black;
+  display: inline-block;
+  font-size: 14px;
+  flex:1;
+  padding: 10px 25px;
+  margin-right: 10px;
+}
+@media (max-width: 480px) {
+  header {
+    width: 100%;
+  }
+}

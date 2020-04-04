@@ -1,118 +1,63 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/b949b4327f.js" crossorigin="anonymous"></script>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sen:wght@700&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/b949b4327f.js" crossorigin="anonymous"></script>
   </head>
-    <title>Landing Page Project</title>
-  </head>
-  <body>
-      <div="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">Kim Lounsberry Healing Services</a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>    
-            <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li></ul>
-            <ul class="nav justify-content-end navbar-dark bg-dark">
-                <li class="nav-item"><a class="nav-link p-2" href="#"><i class="fa fa-instagram"></i></a></li>
+      <header id="header">
+        <nav id="nav-bar">
+          <a class="nav-link" href="#header">Home</a>
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#media">Video</a>
+          <a class="nav-link" href="#subscribe">Subscribe</a>|
+                  <li class="nav-item"><a class="nav-link p-2" href="#"><i class="fa fa-instagram"></i></a></li>
                 <li class="nav-item"><a class="nav-link p-2" href="#"><i class="fa fa-twitter"></i></a></li>
                 <li class="nav-item"><a class="nav-link p-2" href="#"><i class="fa fa-facebook"></i></a></li>
                 <li class="nav-item"><a class="nav-link p-2" href="#"><i class="fa fa-github"></i></a></li>
             </ul>
-      </div>
-    </nav>
-    
-
-
-
-    <img src="space.jpg" class="img-fluid" alt="Responsive image">
-
-    <div class="jumbotron">
-      <h1 class="display-4">Welcome to my landing page!</h1>
-      <p class="lead">This is a landing page project for freeCodeCamp.org.</p>
-      <hr class="my-4">
-      <p>None of the links lead anywhere because this is just a landing page.</p>
-      <a class="btn btn-primary btn-dark" href="#" role="button">Learn more</a>
-    </div>
-
-<div class="container">
-    <div class="row">
-      <div class="card-deck">
-        <div class="card">
-            <img src="people.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">People</h5>
-              <p class="card-text">I have provided healing and coaching services to the public!</p>
-              <p class="text-center"><a href="#"><type="button" class="btn btn-dark">More...</button></a></p>
+        </nav>
+        <body>
+        <div class="container" id="header-title">
+            <h1>Healing Services</h1>
+          </div>
+            <div class="container"  id="header-img">
+            <img id="header-img" src="http://shimmersparkles.github.io/landing-page-project/space.jpg"></div>
+          </header>
+         <h2>Video</h2>
+          <div class="container">
+            <section id="media">
+              <iframe width="700" height="400" src="https://www.youtube.com/embed/thMT8W6qAwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
             </div>
+          </section>
+           <section id="services">
+             <h2>Services</h2>
+             <div class="container">
+               <div class="services">
+                 <img class="img-card" src="http://shimmersparkles.github.io/landing-page-project/space.jpg">
+                 <h2>Reiki</h2>
+                 <p>Method of healing using hands. This is for animals and people.</p>
+                 <button class="card-button">More</button>
+               </div>
+               <div class="services">
+                  <img class="img-card" src="http://shimmersparkles.github.io/landing-page-project/space.jpg">
+                 <h2>Animal Communication</h2>
+                 <p>I communicate with your animals and help solve behavioral and health issues.</p> <button class="card-button">More</button>
+               </div>
+               <div class="services">
+                  <img class="img-card" src="http://shimmersparkles.github.io/landing-page-project/space.jpg">
+                 <h2>Cards</h2>
+                 <p>I will read oracle cards for you.</p> <button class="card-button">More</button>
+               </div>
+             </div>
+          <section id="subscribe" class="bg-lavender">
+          <div class="container">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <h2>Subscribe</h2>
+    <div class="flex">
+      <input id="email" name="email" type="email" placeholder="Enter your email here">
+      <input id="submit" type="submit" class="button" value="Submit"></div></form></div>
+      </section>
+            <footer>
+              Copyright 2020
+            </footer>
           </div>
-        <div class="card">
-          <img src="animals.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Animals</h5>
-            <p class="card-text">All about the animal communication services I offer.</p>
-            <p class="text-center"><a href="#"><type="button" class="btn btn-dark">More...</button></a></p>
-          </div>
-        </div>
-    <div class="card">
-          <img src="testimonials.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Testimonials</h5>
-            <p class="card-text">See what others have to say about my services.</p>
-            <p class="text-center"><a href="#"><type="button" class="btn btn-dark">More...</button></a></p>
-    </div>
-          </div>
-        </div>
-      </div>
-    </div>
-<hr>
-
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-3"></div>
-      <div class="col-sm-6">
-        <form>
-          <div class="form-group">
-            <h5>Subscribe for updates!</h5>
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <button type="submit" class="btn btn-dark">Submit</button>
-        </form>
-      </div>
-        <div class="col-sm-3"></div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="footer-copyright text-center py-3">© 2020 
-  </div>
-</div>
-</footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </div>
-</body>
-</html>
+          </body>
