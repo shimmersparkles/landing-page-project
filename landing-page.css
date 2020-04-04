@@ -5,7 +5,7 @@
   justify-content: left;
   margin: 0 0 -50px 20px;
 }
-#header-img {
+#headerpic {
   max-width: 100%;
 }
 nav {
@@ -20,6 +20,12 @@ nav {
   list-style-type: none;
 }
 .nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+.social {
   color: white;
   text-decoration: none;
   margin: 0 10px;
